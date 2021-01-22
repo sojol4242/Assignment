@@ -1,14 +1,14 @@
-// github link : 
+// github link : https://github.com/sojol4242/Assignment
 
 
 // kilometer to meter problem:
-function kilometerToMeter(lenght) {
+function kilometerToMeter(distance) {
     //when lenght is greater then 0 or equal this code execute;
-    if (lenght >= 0) {
-        var result = lenght * 1000;
+    if (distance >= 0) {
+        var result = distance * 1000;
         return result;
     } else {
-        return `You can't put  a negative input.\nYour input ${lenght}.\nPlease Enter a Valid length`;
+        return `You can't put  a negative input.\nYour input ${distance}.\nPlease Enter a Valid distance`;
         //when lenght is less then 0 this code execute;
     }
 }
@@ -61,7 +61,7 @@ function hotelCost(day) {
         return `You can't put Zero input and a negative input.\nYour input ${day}.\nPlease Enter a Valid day`;
     }
 }
-console.log(hotelCost(21));
+console.log(hotelCost(6));
 
 
 
@@ -69,7 +69,7 @@ console.log(hotelCost(21));
 // megaFriend problem :
 
 
-var myFriends = ["Sojol", "Adnan", "Shohi", "Moniruzzaman", "Moniruzzaman", "Jhankar Mahbub", "Programming Hero(web development)"];
+var myFriends = ["Sojol", "Adnan", "Shohidul", "Moniruzzaman", "Moniruzzaman", "Jhankar Mahbub", "Programming Hero(web development)"];
 
 function megaFriend(arr) {
     var result = [];
